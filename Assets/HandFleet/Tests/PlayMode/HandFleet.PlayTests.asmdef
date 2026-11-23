@@ -1,0 +1,12 @@
+{
+    "name": "HandFleet.PlayTests",
+    "references": [
+        "HandFleet.Runtime",
+        "HandFleet.Integration",
+        "Oculus.Interaction",
+        "Oculus.VR"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
+}

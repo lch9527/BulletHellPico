@@ -1,0 +1,1 @@
+{"name":"HandFleet.EditTests","references":["HandFleet.Runtime","HandFleet.Editor"],"includePlatforms":["Editor"],"optionalUnityReferences":["TestAssemblies"]}

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35ee205b16b6a304cadd79f14568feb1, type: 3}
+  m_Name: GestureFlightSettings
+  m_EditorClassIdentifier: HandFleet.Runtime::HandFleet.HandFleetSettings
+  CoreRadius: 0.02
+  SoloResponse: 0.025
+  FusedResponse: 0.18
+  SoloError: 0.02
+  FusedError: 0.12
+  SoloAcceleration: 100
+  FusedAcceleration: 8
+  MaxSpeed: 4
+  SoloTurnRate: 900
+  FusedTurnRate: 220
+  DiscontinuityDistance: 0.35
+  JoinDwell: 0.45
+  JoinDuration: 0.4
+  EntryTolerance: 0.025
+  ExitExtra: 0.06
+  ExitDwell: 0.2
+  FacingDot: 0.7
+  AlignedDot: 0.8
+  FusedDamage: 1.5
+  PromptDelay: 0.2
+  StableTime: 0.5
+  Countdown: 3
+  Invulnerability: 1
+  FireInterval: 0.05
+  BoltSpeed: 3.5
+  BoltDamage: 1
+  BulletCapacity: 683
+  EnemyCapacity: 32
+  PickupCapacity: 64
+  MaxAttackers: 8
+  LaserDuration: 2
+  LaserDpsMultiplier: 8
+  LaserRadius: 0.06
+  LaserRange: 8
+  ArenaRadius: 6
+  LaserKills: 10
+  EnemyBeamDuration: 0.8
+  EnemyBeamRadius: 0.012
+  BossHealth: 600
+  MaxBank: 15
+  MaxPitch: 8
+  FinOpening: 12
+  GestureCampaign: 1

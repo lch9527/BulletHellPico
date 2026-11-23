@@ -1,0 +1,17 @@
+{
+    "name": "HandFleet.Editor",
+    "references": [
+        "HandFleet.Runtime",
+        "HandFleet.Integration",
+        "Unity.XR.OpenXR",
+        "Unity.XR.OpenXR.Features.PICOSupport",
+        "Oculus.VR",
+        "Oculus.Interaction",
+        "Oculus.Interaction.Editor.UnityXR",
+        "Unity.XR.CoreUtils",
+        "Unity.RenderPipelines.Universal.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ]
+}

@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adf6d718fa6b1dc48a9840e932428e0e, type: 3}
+  m_Name: GestureArt
+  m_EditorClassIdentifier: HandFleet.Runtime::HandFleet.FleetArtAssets
+  Kestrel: {fileID: 5856366496813600112, guid: 9f4f82b62014c694f870d3d11fc83c64, type: 3}
+  Arena: {fileID: 6573123255951743943, guid: 3963c7942d3dbe146821a136d3ed6ca9, type: 3}
+  Enemies:
+  - {fileID: 7624425093318105152, guid: e8d8535c94d80ce4a9d5d3ceb6f37567, type: 3}
+  - {fileID: 7849184752356059815, guid: 7129232d37f8ba74c81795789e4cf249, type: 3}
+  - {fileID: 2746538842876474283, guid: 245278844afb3b547aaf16f83d5b4f66, type: 3}
+  - {fileID: 7137290122223664297, guid: 96277fcf5a329e44f9bbb9e3a9293496, type: 3}
+  - {fileID: 7473777153714025440, guid: 0b6329997f95b9d47beb0bfce0c034da, type: 3}
+  - {fileID: 8081094978674590412, guid: 1b2d4c4f147fb8f4a868c0de6aec89c5, type: 3}
+  - {fileID: 3310283078844699932, guid: eab1d7071afd5cb4b8675c98d70c6b11, type: 3}
+  - {fileID: 7579982797002377733, guid: b5fd013444a4ddd41a094002649ae373, type: 3}
+  - {fileID: 4673522312194403485, guid: 2f7fc5dde9b9ba6478eb93a7e9f99b8f, type: 3}
+  - {fileID: 4018705500646129380, guid: 02f4306ba742caa4a863aa5e4b188267, type: 3}
+  - {fileID: 7710375090877605038, guid: 9938fb5f0d08983469f19a11ffe1827d, type: 3}
+  - {fileID: 2940922403148552389, guid: 6d709663c6107f441b6f423fd3cfd36d, type: 3}
+  - {fileID: 1326592328760499515, guid: 3bff84f6432d8934bb0b3673d606af86, type: 3}
+  - {fileID: 3044385734667288463, guid: 86f15484755f4b84abd90697cf26a130, type: 3}
+  - {fileID: 5631070053780203437, guid: ddd03932f504c67468250e5f6c4051a4, type: 3}
+  - {fileID: 9068242678383662612, guid: 1e5b547adc6019b46a2dae56b7bdc6ea, type: 3}
+  Sounds:
+  - {fileID: 8300000, guid: 4fb0f05a4c1905e448d4ba85cb7aeb70, type: 3}
+  - {fileID: 8300000, guid: d5c9a86577825640805829874608e03c, type: 3}
+  - {fileID: 8300000, guid: 4e8caa8001bb58c3900d61f9b2e62586, type: 3}
+  - {fileID: 8300000, guid: 8060c00c6935528eb3fa4a275691dbeb, type: 3}
+  - {fileID: 8300000, guid: 607471cbe0bd56518e586b991d1f8d3f, type: 3}
+  - {fileID: 8300000, guid: fa38c67af8ff5841b718fbf0c7ed96d3, type: 3}
+  - {fileID: 8300000, guid: 5b4f5fa7dc625fcbae796aab993fec14, type: 3}
+  - {fileID: 8300000, guid: e2e0827c4d3d1924ca9bd9512b47fe88, type: 3}
+  - {fileID: 8300000, guid: a06d0101468122d44b3f01751b466c28, type: 3}
+  - {fileID: 8300000, guid: 76dae85e6b27c454c8dccb0cda3525a9, type: 3}
+  - {fileID: 8300000, guid: 8d31ae7fc4af4bc4c9577827f063d736, type: 3}
+  - {fileID: 8300000, guid: 4168b1852bda41649bd3092a4b1c9b4f, type: 3}
+  - {fileID: 8300000, guid: 3accda807466fcd46b25f50fa498e832, type: 3}
+  - {fileID: 8300000, guid: d48ab5fb9e9bc9344872e7031f5c4e5b, type: 3}
+  - {fileID: 8300000, guid: 38b2f2bf7e6b2b94b8cb9ff6f1373196, type: 3}
+  - {fileID: 8300000, guid: bf13dbe043a402243a50f9ca151f7e4b, type: 3}
+  - {fileID: 8300000, guid: f66ed051e2085b9099ab17e178d1ae0c, type: 3}
+  - {fileID: 8300000, guid: a3da84f22c8f2da449e93a74e6f95057, type: 3}
+  - {fileID: 8300000, guid: a2d918c1b7de08d46a7aaf086a307eb9, type: 3}
+  - {fileID: 8300000, guid: e2e0827c4d3d1924ca9bd9512b47fe88, type: 3}
+  - {fileID: 8300000, guid: 342cbdbb52d759e68d75bcdead5fdfbb, type: 3}
+  - {fileID: 8300000, guid: 9afed7329d4d547fbb8201e21b05037d, type: 3}
+  - {fileID: 8300000, guid: 66bebaeb76b255189beb22253bfd9a84, type: 3}
+  Ambience: {fileID: 8300000, guid: 3e7495bff4bed8f4ea9ff23f2acbea6a, type: 3}
+  JetEngineLoop: {fileID: 8300000, guid: 077597cdd5165cefb1d69960cc079415, type: 3}
+  FollowerEngineLoop: {fileID: 8300000, guid: 8f314ea14a185bcda1cfd01aafa63fa2, type: 3}
+  HeavyEngineLoop: {fileID: 8300000, guid: 4067d2b67492547d8a3a24c3a857bd31, type: 3}
+  EnemyWeapons:
+  - Family: 0
+    Charge: {fileID: 0}
+    Fire: {fileID: 8300000, guid: 7e3031fbedff511ba4617474b26d5a72, type: 3}
+    FirePitch: 1.03
+  - Family: 1
+    Charge: {fileID: 0}
+    Fire: {fileID: 8300000, guid: d37d4383124d503d8d0814924eece493, type: 3}
+    FirePitch: 1.0
+  - Family: 2
+    Charge: {fileID: 0}
+    Fire: {fileID: 8300000, guid: 5b1ba74853e85844beedc9a75cffc039, type: 3}
+    FirePitch: 1.2
+  - Family: 3
+    Charge: {fileID: 8300000, guid: 00b33bb7f6a9598bb73d533607909d7a, type: 3}
+    Fire: {fileID: 8300000, guid: 226bb03b77f053ad93661a8f18a4ce76, type: 3}
+    FirePitch: 0.96
+  - Family: 4
+    Charge: {fileID: 0}
+    Fire: {fileID: 8300000, guid: c2e460f300b453609be35fc879614999, type: 3}
+    FirePitch: 1.0
+  - Family: 5
+    Charge: {fileID: 0}
+    Fire: {fileID: 8300000, guid: 5a8d44cf4ac4552c850269e2a5c8b82d, type: 3}
+    FirePitch: 0.91
+  - Family: 7
+    Charge: {fileID: 0}
+    Fire: {fileID: 8300000, guid: 49679943e38b52f1a0f0a8c01003d559, type: 3}
+    FirePitch: 1.0
+  - Family: 8
+    Charge: {fileID: 8300000, guid: 00b33bb7f6a9598bb73d533607909d7a, type: 3}
+    Fire: {fileID: 8300000, guid: 818ccedf06f559f19044737fede92557, type: 3}
+    FirePitch: 1.0
+  - Family: 9
+    Charge: {fileID: 0}
+    Fire: {fileID: 8300000, guid: cae4435aa2cb5aa390b2e19bbb955029, type: 3}
+    FirePitch: 1.0
+  - Family: 10
+    Charge: {fileID: 0}
+    Fire: {fileID: 8300000, guid: 5a8d44cf4ac4552c850269e2a5c8b82d, type: 3}
+    FirePitch: 1.03
+  - Family: 13
+    Charge: {fileID: 0}
+    Fire: {fileID: 8300000, guid: b77e950b5f62575097a3c0bc59b85645, type: 3}
+    FirePitch: 1.12
+  - Family: 14
+    Charge: {fileID: 0}
+    Fire: {fileID: 8300000, guid: 3e1cc8cc56b856f8871efe8e1fdd388e, type: 3}
+    FirePitch: 1.0
+  - Family: 15
+    Charge: {fileID: 0}
+    Fire: {fileID: 8300000, guid: 5b1ba74853e85844beedc9a75cffc039, type: 3}
+    FirePitch: 0.89

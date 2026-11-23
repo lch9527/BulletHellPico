@@ -136,3 +136,7 @@ crashlytics-build.properties
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Meta dev agent access token: local only
+/[Aa]ssets/[Rr]esources/DevAgentSettings.asset
+/[Aa]ssets/[Rr]esources/DevAgentSettings.asset.meta

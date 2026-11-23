@@ -1,0 +1,12 @@
+{
+    "name": "HandFleet.Integration",
+    "references": [
+        "HandFleet.Runtime",
+        "Oculus.Interaction",
+        "Oculus.Interaction.OVR",
+        "Oculus.VR",
+        "Unity.InputSystem",
+        "Unity.XR.OpenXR",
+        "Unity.XR.OpenXR.Features.PICOSupport"
+    ]
+}

@@ -1,0 +1,552 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70696b162d1b08147b69f21172b6c554, type: 3}
+  m_Name: ClassicLaunchCradle
+  m_EditorClassIdentifier: HandFleet.Runtime::HandFleet.HandFleetMission
+  Patterns:
+  - {fileID: 11400000, guid: db258c50302c99d47b57890dbb41d9ec, type: 2}
+  - {fileID: 11400000, guid: 19cff5d6cf3e1004c820742373a82eff, type: 2}
+  - {fileID: 11400000, guid: cf20fb87dc7840249bb9ef2173c64e2a, type: 2}
+  - {fileID: 11400000, guid: f15bffb5e4a350045a20210ac9b673a4, type: 2}
+  - {fileID: 11400000, guid: 4819d06559905214aa0d1d590373663f, type: 2}
+  - {fileID: 11400000, guid: 92aca0da40a8a7e42b182e1e6946a593, type: 2}
+  Stages:
+  - Title: FLIGHT / LASER TRAINING
+    Kind: 0
+    Duration: 25
+    SpawnInterval: 4
+    MaxEnemies: 2
+    Families: 00000000
+    AllowFusion: 0
+    Completion: 0
+    Spawns: []
+    Instruction: Protect the cyan core. Aim to fire. Pinch your steering hand to
+      fire the charged laser.
+  - Title: OPTIONAL ATLAS DOCKING
+    Kind: 3
+    Duration: 25
+    SpawnInterval: 8
+    MaxEnemies: 1
+    Families: 00000000
+    AllowFusion: 1
+    Completion: 0
+    Spawns: []
+    Instruction: Pause to calibrate palm contact. Join gently, or skip and fly solo.
+  - Title: 01 / APPROACH
+    Kind: 1
+    Duration: 25
+    SpawnInterval: 3
+    MaxEnemies: 6
+    Families: 00000000
+    AllowFusion: 1
+    Completion: 1
+    Spawns:
+    - At: 0
+      Family: 0
+      Position: {x: -0.94640106, y: 0.15, z: 1.3516009}
+      EntryOffset: {x: -0.42841566, y: 0.46790183, z: 0.61184096}
+      PathAxis: {x: 0.81915206, y: -0, z: 0.5735764}
+      PathAmplitude: 0.07
+      PathSpeed: 0.6
+      Group: 0
+    - At: 1.8
+      Family: 0
+      Position: {x: 0, y: 0.4, z: 1.95}
+      EntryOffset: {x: 0, y: 0.5507081, z: 0.734702}
+      PathAxis: {x: 1, y: 0, z: 0}
+      PathAmplitude: 0.07
+      PathSpeed: 0.6
+      Group: 1
+    - At: 3.6
+      Family: 0
+      Position: {x: 0.94640106, y: 0.15, z: 1.3516009}
+      EntryOffset: {x: 0.42841566, y: 0.46790183, z: 0.61184096}
+      PathAxis: {x: 0.81915206, y: 0, z: -0.5735764}
+      PathAmplitude: 0.07
+      PathSpeed: 0.6
+      Group: 0
+    - At: 12
+      Family: 0
+      Position: {x: -0.94640106, y: 0.15, z: 1.3516009}
+      EntryOffset: {x: -0.42841566, y: 0.46790183, z: 0.61184096}
+      PathAxis: {x: 0.81915206, y: -0, z: 0.5735764}
+      PathAmplitude: 0.07
+      PathSpeed: 0.6
+      Group: 0
+    - At: 13.8
+      Family: 0
+      Position: {x: 0, y: 0.4, z: 1.95}
+      EntryOffset: {x: 0, y: 0.5507081, z: 0.734702}
+      PathAxis: {x: 1, y: 0, z: 0}
+      PathAmplitude: 0.07
+      PathSpeed: 0.6
+      Group: 1
+    - At: 15.6
+      Family: 0
+      Position: {x: 0.94640106, y: 0.15, z: 1.3516009}
+      EntryOffset: {x: 0.42841566, y: 0.46790183, z: 0.61184096}
+      PathAxis: {x: 0.81915206, y: 0, z: -0.5735764}
+      PathAmplitude: 0.07
+      PathSpeed: 0.6
+      Group: 0
+    Instruction: 'Clear every target to advance. Pinch steering hand: charged laser.'
+  - Title: FLIGHT REST
+    Kind: 2
+    Duration: 5
+    SpawnInterval: 3
+    MaxEnemies: 0
+    Families: 00000000
+    AllowFusion: 1
+    Completion: 0
+    Spawns: []
+    Instruction: Rest your arms. Pause for an indefinite break.
+  - Title: 02 / CROSSING LANES
+    Kind: 1
+    Duration: 25
+    SpawnInterval: 3
+    MaxEnemies: 6
+    Families: 00000000
+    AllowFusion: 1
+    Completion: 1
+    Spawns:
+    - At: 0
+      Family: 0
+      Position: {x: -1.6249329, y: 0.15, z: -0.28651938}
+      EntryOffset: {x: -0.7355725, y: 0.46790183, z: -0.12970123}
+      PathAxis: {x: -0.1736481, y: 0, z: 0.9848077}
+      PathAmplitude: 0.07
+      PathSpeed: 0.6
+      Group: 0
+    - At: 1.8
+      Family: 3
+      Position: {x: -1.0715424, y: 0.4, z: 1.6292013}
+      EntryOffset: {x: -0.40372533, y: 0.5507081, z: 0.6138346}
+      PathAxis: {x: 0.8354879, y: -0, z: 0.5495089}
+      PathAmplitude: 0.07
+      PathSpeed: 0.6
+      Group: 1
+    - At: 3.6
+      Family: 0
+      Position: {x: 0.9066897, y: 0.15, z: 1.3785549}
+      EntryOffset: {x: 0.4104392, y: 0.46790183, z: 0.6240425}
+      PathAxis: {x: 0.83548784, y: 0, z: -0.5495089}
+      PathAmplitude: 0.07
+      PathSpeed: 0.6
+      Group: 0
+    - At: 5.3999996
+      Family: 3
+      Position: {x: 1.9203752, y: 0.4, z: -0.33861384}
+      EntryOffset: {x: 0.7235403, y: 0.5507081, z: -0.12757963}
+      PathAxis: {x: -0.17364812, y: 0, z: -0.9848078}
+      PathAmplitude: 0.07
+      PathSpeed: 0.6
+      Group: 1
+    - At: 12
+      Family: 0
+      Position: {x: -1.5504929, y: 0.15, z: 0.56433314}
+      EntryOffset: {x: -0.70187515, y: 0.46790183, z: 0.2554616}
+      PathAxis: {x: 0.3420201, y: -0, z: 0.9396927}
+      PathAmplitude: 0.07
+      PathSpeed: 0.6
+      Group: 0
+    - At: 13.8
+      Family: 3
+      Position: {x: -0.113382414, y: 0.4, z: 1.946701}
+      EntryOffset: {x: -0.04271912, y: 0.5507081, z: 0.733459}
+      PathAxis: {x: 0.9983081, y: -0, z: 0.058144823}
+      PathAmplitude: 0.07
+      PathSpeed: 0.6
+      Group: 1
+    - At: 15.6
+      Family: 0
+      Position: {x: 1.4744937, y: 0.15, z: 0.74051875}
+      EntryOffset: {x: 0.66747195, y: 0.46790183, z: 0.3352171}
+      PathAxis: {x: 0.44879925, y: 0, z: -0.8936326}
+      PathAmplitude: 0.07
+      PathSpeed: 0.6
+      Group: 0
+    - At: 17.4
+      Family: 3
+      Position: {x: 1.4937867, y: 0.4, z: -1.2534361}
+      EntryOffset: {x: 0.56281435, y: 0.5507081, z: -0.47225744}
+      PathAxis: {x: -0.6427877, y: 0, z: -0.7660444}
+      PathAmplitude: 0.07
+      PathSpeed: 0.6
+      Group: 1
+    Instruction: Amber brackets warn before beams lock. Look toward directional charge
+      sounds.
+  - Title: FLIGHT REST
+    Kind: 2
+    Duration: 5
+    SpawnInterval: 3
+    MaxEnemies: 0
+    Families: 00000000
+    AllowFusion: 1
+    Completion: 0
+    Spawns: []
+    Instruction: Rest your arms. Pause for an indefinite break.
+  - Title: 03 / RADIAL PRESSURE
+    Kind: 1
+    Duration: 25
+    SpawnInterval: 3
+    MaxEnemies: 6
+    Families: 00000000
+    AllowFusion: 1
+    Completion: 1
+    Spawns:
+    - At: 0
+      Family: 2
+      Position: {x: -1.6249329, y: 0.15, z: -0.28651938}
+      EntryOffset: {x: -0.7355725, y: 0.46790183, z: -0.12970123}
+      PathAxis: {x: -0.1736481, y: 0, z: 0.9848077}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 0
+    - At: 1.8
+      Family: 1
+      Position: {x: 0, y: 0.4, z: 1.95}
+      EntryOffset: {x: 0, y: 0.5507081, z: 0.734702}
+      PathAxis: {x: 1, y: 0, z: 0}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 1
+    - At: 3.6
+      Family: 4
+      Position: {x: 1.6249329, y: 0.15, z: -0.28651938}
+      EntryOffset: {x: 0.7355725, y: 0.46790183, z: -0.12970123}
+      PathAxis: {x: -0.1736481, y: 0, z: -0.9848077}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 0
+    - At: 12
+      Family: 2
+      Position: {x: -1.5504929, y: 0.15, z: 0.56433314}
+      EntryOffset: {x: -0.70187515, y: 0.46790183, z: 0.2554616}
+      PathAxis: {x: 0.3420201, y: -0, z: 0.9396927}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 0
+    - At: 13.8
+      Family: 1
+      Position: {x: 0.975, y: 0.4, z: 1.6887496}
+      EntryOffset: {x: 0.367351, y: 0.5507081, z: 0.63627064}
+      PathAxis: {x: 0.8660254, y: 0, z: -0.5}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 1
+    - At: 15.6
+      Family: 4
+      Position: {x: 1.2639734, y: 0.15, z: -1.0605997}
+      EntryOffset: {x: 0.57217383, y: 0.46790183, z: -0.48011088}
+      PathAxis: {x: -0.64278764, y: 0, z: -0.76604444}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 0
+    Instruction: 'Clear every target to advance. Pinch steering hand: charged laser.'
+  - Title: FLIGHT REST
+    Kind: 2
+    Duration: 5
+    SpawnInterval: 3
+    MaxEnemies: 0
+    Families: 00000000
+    AllowFusion: 1
+    Completion: 0
+    Spawns: []
+    Instruction: Rest your arms. Pause for an indefinite break.
+  - Title: 04 / ORBITAL SWARM
+    Kind: 1
+    Duration: 25
+    SpawnInterval: 3
+    MaxEnemies: 6
+    Families: 00000000
+    AllowFusion: 1
+    Completion: 1
+    Spawns:
+    - At: 0
+      Family: 2
+      Position: {x: -1.6249329, y: 0.15, z: -0.28651938}
+      EntryOffset: {x: -0.7355725, y: 0.46790183, z: -0.12970123}
+      PathAxis: {x: -0.1736481, y: 0, z: 0.9848077}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 0
+    - At: 1.8
+      Family: 0
+      Position: {x: -1.0715424, y: 0.4, z: 1.6292013}
+      EntryOffset: {x: -0.40372533, y: 0.5507081, z: 0.6138346}
+      PathAxis: {x: 0.8354879, y: -0, z: 0.5495089}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 1
+    - At: 3.6
+      Family: 1
+      Position: {x: 0.9066897, y: 0.15, z: 1.3785549}
+      EntryOffset: {x: 0.4104392, y: 0.46790183, z: 0.6240425}
+      PathAxis: {x: 0.83548784, y: 0, z: -0.5495089}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 0
+    - At: 5.3999996
+      Family: 4
+      Position: {x: 1.9203752, y: 0.4, z: -0.33861384}
+      EntryOffset: {x: 0.7235403, y: 0.5507081, z: -0.12757963}
+      PathAxis: {x: -0.17364812, y: 0, z: -0.9848078}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 1
+    - At: 12
+      Family: 2
+      Position: {x: -1.5504929, y: 0.15, z: 0.56433314}
+      EntryOffset: {x: -0.70187515, y: 0.46790183, z: 0.2554616}
+      PathAxis: {x: 0.3420201, y: -0, z: 0.9396927}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 0
+    - At: 13.8
+      Family: 0
+      Position: {x: -0.113382414, y: 0.4, z: 1.946701}
+      EntryOffset: {x: -0.04271912, y: 0.5507081, z: 0.733459}
+      PathAxis: {x: 0.9983081, y: -0, z: 0.058144823}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 1
+    - At: 15.6
+      Family: 1
+      Position: {x: 1.4744937, y: 0.15, z: 0.74051875}
+      EntryOffset: {x: 0.66747195, y: 0.46790183, z: 0.3352171}
+      PathAxis: {x: 0.44879925, y: 0, z: -0.8936326}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 0
+    - At: 17.4
+      Family: 4
+      Position: {x: 1.4937867, y: 0.4, z: -1.2534361}
+      EntryOffset: {x: 0.56281435, y: 0.5507081, z: -0.47225744}
+      PathAxis: {x: -0.6427877, y: 0, z: -0.7660444}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 1
+    Instruction: 'Clear every target to advance. Pinch steering hand: charged laser.'
+  - Title: FLIGHT REST
+    Kind: 2
+    Duration: 5
+    SpawnInterval: 3
+    MaxEnemies: 0
+    Families: 00000000
+    AllowFusion: 1
+    Completion: 0
+    Spawns: []
+    Instruction: Rest your arms. Pause for an indefinite break.
+  - Title: 05 / LASER CROSSWEAVE
+    Kind: 1
+    Duration: 25
+    SpawnInterval: 3
+    MaxEnemies: 6
+    Families: 00000000
+    AllowFusion: 1
+    Completion: 1
+    Spawns:
+    - At: 0
+      Family: 3
+      Position: {x: -1.6249329, y: 0.15, z: -0.28651938}
+      EntryOffset: {x: -0.7355725, y: 0.46790183, z: -0.12970123}
+      PathAxis: {x: -0.1736481, y: 0, z: 0.9848077}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 0
+    - At: 1.8
+      Family: 0
+      Position: {x: -1.0715424, y: 0.4, z: 1.6292013}
+      EntryOffset: {x: -0.40372533, y: 0.5507081, z: 0.6138346}
+      PathAxis: {x: 0.8354879, y: -0, z: 0.5495089}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 1
+    - At: 3.6
+      Family: 3
+      Position: {x: 0.9066897, y: 0.15, z: 1.3785549}
+      EntryOffset: {x: 0.4104392, y: 0.46790183, z: 0.6240425}
+      PathAxis: {x: 0.83548784, y: 0, z: -0.5495089}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 0
+    - At: 5.3999996
+      Family: 2
+      Position: {x: 1.9203752, y: 0.4, z: -0.33861384}
+      EntryOffset: {x: 0.7235403, y: 0.5507081, z: -0.12757963}
+      PathAxis: {x: -0.17364812, y: 0, z: -0.9848078}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 1
+    - At: 12
+      Family: 3
+      Position: {x: -1.5504929, y: 0.15, z: 0.56433314}
+      EntryOffset: {x: -0.70187515, y: 0.46790183, z: 0.2554616}
+      PathAxis: {x: 0.3420201, y: -0, z: 0.9396927}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 0
+    - At: 13.8
+      Family: 0
+      Position: {x: -0.113382414, y: 0.4, z: 1.946701}
+      EntryOffset: {x: -0.04271912, y: 0.5507081, z: 0.733459}
+      PathAxis: {x: 0.9983081, y: -0, z: 0.058144823}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 1
+    - At: 15.6
+      Family: 3
+      Position: {x: 1.4744937, y: 0.15, z: 0.74051875}
+      EntryOffset: {x: 0.66747195, y: 0.46790183, z: 0.3352171}
+      PathAxis: {x: 0.44879925, y: 0, z: -0.8936326}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 0
+    - At: 17.4
+      Family: 2
+      Position: {x: 1.4937867, y: 0.4, z: -1.2534361}
+      EntryOffset: {x: 0.56281435, y: 0.5507081, z: -0.47225744}
+      PathAxis: {x: -0.6427877, y: 0, z: -0.7660444}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 1
+    Instruction: 'Clear every target to advance. Pinch steering hand: charged laser.'
+  - Title: FLIGHT REST
+    Kind: 2
+    Duration: 5
+    SpawnInterval: 3
+    MaxEnemies: 0
+    Families: 00000000
+    AllowFusion: 1
+    Completion: 0
+    Spawns: []
+    Instruction: Rest your arms. Pause for an indefinite break.
+  - Title: 06 / FINAL APPROACH
+    Kind: 1
+    Duration: 25
+    SpawnInterval: 3
+    MaxEnemies: 6
+    Families: 00000000
+    AllowFusion: 1
+    Completion: 1
+    Spawns:
+    - At: 0
+      Family: 1
+      Position: {x: -1.6249329, y: 0.15, z: -0.28651938}
+      EntryOffset: {x: -0.7355725, y: 0.46790183, z: -0.12970123}
+      PathAxis: {x: -0.1736481, y: 0, z: 0.9848077}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 0
+    - At: 1.8
+      Family: 4
+      Position: {x: -1.4937867, y: 0.4, z: 1.2534359}
+      EntryOffset: {x: -0.5628144, y: 0.5507081, z: 0.47225735}
+      PathAxis: {x: 0.6427876, y: -0, z: 0.76604444}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 1
+    - At: 3.6
+      Family: 2
+      Position: {x: 0, y: 0.15, z: 1.65}
+      EntryOffset: {x: 0, y: 0.46790183, z: 0.74691993}
+      PathAxis: {x: 1, y: 0, z: 0}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 0
+    - At: 5.3999996
+      Family: 3
+      Position: {x: 1.4937867, y: 0.4, z: 1.2534359}
+      EntryOffset: {x: 0.5628144, y: 0.5507081, z: 0.47225735}
+      PathAxis: {x: 0.6427876, y: 0, z: -0.76604444}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 1
+    - At: 7.2
+      Family: 0
+      Position: {x: 1.6249329, y: 0.15, z: -0.28651938}
+      EntryOffset: {x: 0.7355725, y: 0.46790183, z: -0.12970123}
+      PathAxis: {x: -0.1736481, y: 0, z: -0.9848077}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 0
+    - At: 12
+      Family: 1
+      Position: {x: -1.5504929, y: 0.15, z: 0.56433314}
+      EntryOffset: {x: -0.70187515, y: 0.46790183, z: 0.2554616}
+      PathAxis: {x: 0.3420201, y: -0, z: 0.9396927}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 0
+    - At: 13.8
+      Family: 4
+      Position: {x: -0.66693926, y: 0.4, z: 1.8324007}
+      EntryOffset: {x: -0.25128287, y: 0.5507081, z: 0.69039404}
+      PathAxis: {x: 0.9396926, y: -0, z: 0.34202012}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 1
+    - At: 15.6
+      Family: 2
+      Position: {x: 0.825, y: 0.15, z: 1.4289418}
+      EntryOffset: {x: 0.37345996, y: 0.46790183, z: 0.64685166}
+      PathAxis: {x: 0.8660254, y: 0, z: -0.5}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 0
+    - At: 17.4
+      Family: 3
+      Position: {x: 1.920375, y: 0.4, z: 0.33861408}
+      EntryOffset: {x: 0.72354025, y: 0.5507081, z: 0.12757972}
+      PathAxis: {x: 0.17364825, y: 0, z: -0.9848077}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 1
+    - At: 19.2
+      Family: 0
+      Position: {x: 1.2639734, y: 0.15, z: -1.0605997}
+      EntryOffset: {x: 0.57217383, y: 0.46790183, z: -0.48011088}
+      PathAxis: {x: -0.64278764, y: 0, z: -0.76604444}
+      PathAmplitude: 0.2
+      PathSpeed: 0.6
+      Group: 0
+    Instruction: 'Clear every target to advance. Pinch steering hand: charged laser.'
+  - Title: FLIGHT REST
+    Kind: 2
+    Duration: 5
+    SpawnInterval: 3
+    MaxEnemies: 0
+    Families: 00000000
+    AllowFusion: 1
+    Completion: 0
+    Spawns: []
+    Instruction: Rest your arms. Pause for an indefinite break.
+  - Title: GATEKEEPER / CORE BREACH
+    Kind: 1
+    Duration: 1
+    SpawnInterval: 3
+    MaxEnemies: 1
+    Families: 00000000
+    AllowFusion: 1
+    Completion: 1
+    Spawns:
+    - At: 0
+      Family: 5
+      Position: {x: 0, y: 0.35, z: 2}
+      EntryOffset: {x: 0, y: 0, z: 2}
+      PathAxis: {x: 1, y: 0, z: 0}
+      PathAmplitude: 0.4
+      PathSpeed: 0.3
+      Group: 0
+    Instruction: Break the iris. Read bursts, then rings, then fans. Laser charge
+      persists between phases.
+  ScoreVersion: Classic.v1

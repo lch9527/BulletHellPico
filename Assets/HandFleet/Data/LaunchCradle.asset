@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70696b162d1b08147b69f21172b6c554, type: 3}
+  m_Name: LaunchCradle
+  m_EditorClassIdentifier: HandFleet.Runtime::HandFleet.HandFleetMission
+  Patterns:
+  - {fileID: 11400000, guid: 44c325bc7ec046e4281b1fbd6a3f4e0e, type: 2}
+  - {fileID: 11400000, guid: 095fd4ebb811629459c6e7f3ade51a5b, type: 2}
+  - {fileID: 11400000, guid: fd805594277cc854a82cdc9a1e4bbf99, type: 2}
+  Stages:
+  - Title: FLIGHT PRACTICE
+    Kind: 0
+    Duration: 25
+    SpawnInterval: 5
+    MaxEnemies: 1
+    Families: 00000000
+  - Title: 01 / COMMITTED BURSTS
+    Kind: 1
+    Duration: 20
+    SpawnInterval: 3.5
+    MaxEnemies: 2
+    Families: 00000000
+  - Title: REST
+    Kind: 2
+    Duration: 5
+    SpawnInterval: 5
+    MaxEnemies: 0
+    Families: 00000000
+  - Title: 02 / READ THE PULSE TILES
+    Kind: 1
+    Duration: 20
+    SpawnInterval: 4
+    MaxEnemies: 2
+    Families: 01000000
+  - Title: REST
+    Kind: 2
+    Duration: 5
+    SpawnInterval: 5
+    MaxEnemies: 0
+    Families: 00000000
+  - Title: FUSION PRACTICE
+    Kind: 3
+    Duration: 25
+    SpawnInterval: 5
+    MaxEnemies: 1
+    Families: 02000000
+  - Title: 03 / READ THE RING
+    Kind: 1
+    Duration: 25
+    SpawnInterval: 4
+    MaxEnemies: 2
+    Families: 02000000
+  - Title: REST
+    Kind: 2
+    Duration: 5
+    SpawnInterval: 5
+    MaxEnemies: 0
+    Families: 00000000
+  - Title: 04 / CHOOSE YOUR TARGET
+    Kind: 1
+    Duration: 30
+    SpawnInterval: 3
+    MaxEnemies: 4
+    Families: 0000000001000000
+  - Title: REST
+    Kind: 2
+    Duration: 5
+    SpawnInterval: 5
+    MaxEnemies: 0
+    Families: 00000000
+  - Title: 05 / BRING THE FLEET HOME
+    Kind: 1
+    Duration: 30
+    SpawnInterval: 2.8
+    MaxEnemies: 5
+    Families: 000000000100000002000000
